@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vthings",
+	"version": "${version}",
+	"name": "VanillaThings",
+	"description": "Adds some vanilla-ish things to the game!",
+	"authors": [
+		"Neylz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/uniformsreader/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.neylz.uniformsreader.UniformsReader"
+		],
+		"client": [
+			"dev.neylz.uniformsreader.UniformsReaderClient"
+		],
+		"fabric-datagen": [
+			"dev.neylz.uniformsreader.UniformsReaderDataGenerator"
+		]
+	},
+	"mixins": [
+		"uniformsreader.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
