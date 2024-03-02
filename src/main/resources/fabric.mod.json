@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "vthings",
+	"id": "uniformsreader",
 	"version": "${version}",
-	"name": "VanillaThings",
-	"description": "Adds some vanilla-ish things to the game!",
+	"name": "Uniforms Reader",
+	"description": "Reads Uniforms",
 	"authors": [
 		"Neylz"
 	],
@@ -12,14 +12,10 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/uniformsreader/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"dev.neylz.uniformsreader.UniformsReader"
-		],
-		"client": [
-			"dev.neylz.uniformsreader.UniformsReaderClient"
 		],
 		"fabric-datagen": [
 			"dev.neylz.uniformsreader.UniformsReaderDataGenerator"

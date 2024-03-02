@@ -3,7 +3,7 @@
 	"package": "dev.neylz.uniformsreader.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"UniformGetterMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
